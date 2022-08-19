@@ -6,12 +6,11 @@ using namespace std;
 int main()
 {
     cout<<"Hello, world!"<<endl;
-    List<int> list;
+    List<string> list;
     cout<<"Length: "<<list.length()<<endl;
-    list.append(1);
-    list.append(2);
+    list.append("Mundo");
+    list.append("Hola");
     cout<<"Length: "<<list.length()<<endl;
-    cout<<list.pop()<<endl;
     cout<<list.pop()<<endl;
     cout<<list.pop()<<endl;
     cout<<"Length: "<<list.length()<<endl;

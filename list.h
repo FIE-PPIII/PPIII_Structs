@@ -55,7 +55,7 @@ template <class Type>
 Type List<Type>::pop(){
     Type result;
     if (this->len == 0)
-        return NULL;
+        return NULL; //This should actually throw an exception instead of returning NULL
     if (this->len == 1){
         result = this->first->getValue();
         delete this->first;
